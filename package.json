@@ -2,19 +2,37 @@
   "name": "rs-starter",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/styles": "^4.10.0",
+    "axios": "^0.20.0",
+    "clsx": "^1.1.1",
+    "copy-to-clipboard": "^3.3.1",
+    "helmet": "^4.1.1",
+    "history": "^5.0.0",
+    "material-ui-confirm": "^2.1.1",
+    "notistack": "^1.0.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.14.0",
+    "react-helmet": "^6.1.0",
+    "react-router": "^5.2.0",
+    "react-router-config": "^5.1.1",
+    "react-scripts": "3.4.3",
+    "react-use": "^15.3.4",
+    "unstated-next": "^1.1.0",
+    "validate.js": "^0.13.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1"
   },
   "eslintConfig": {
     "extends": "react-app"
